@@ -1,0 +1,6 @@
+async function getfact(){
+    let response =await fetch('https://meowfacts.herokuapp.com/');
+    let finalresponse = await response.json();
+    document.getElementById('box').innerText = finalresponse.data[0];
+    console.log(finalresponse.data[0])
+}
