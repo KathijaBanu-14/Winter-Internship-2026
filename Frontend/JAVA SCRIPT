@@ -1,0 +1,6 @@
+
+const signupBtn = document.getElementById("signupBtn");
+
+signupBtn.addEventListener("click", function() {
+    document.body.classList.toggle("dark-mode");
+});
