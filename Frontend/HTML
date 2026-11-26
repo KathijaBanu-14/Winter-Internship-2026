@@ -1,0 +1,45 @@
+//ZERODHA 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zerodha Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <img src="https://zerodha.com/static/images/logo.svg"
+        alt="Zerodha Logo" width="140">
+
+        <nav>
+            <a href="#">Signup</a>
+            <a href="#">About</a>
+            <a href="#">Products</a>
+            <a href="#">Pricing</a>
+            <a href="#">Support</a>
+            <a href="#">☰</a>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+
+        <img src="https://zerodha.com/static/images/landing.png"
+        alt="Zerodha Trading Platform" width="800">
+
+        <h1>Invest in everything</h1>
+
+        <p>
+            Online platform to invest in stocks, IPOs,
+            derivatives, mutual funds, ETFs, bonds, and more.
+        </p>
+
+        <button>Sign up for free</button>
+
+    </main>
+
+</body>
+</html>
