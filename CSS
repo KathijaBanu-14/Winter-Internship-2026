@@ -1,0 +1,62 @@
+
+/* Full Website */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #424242;
+}
+
+/* Navigation Bar */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 100px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+nav a {
+    text-decoration: none;
+    color: #666666;
+    margin-left: 35px;
+    font-size: 16px;
+}
+
+/* Main Image and Content */
+
+main {
+    text-align: center;
+    padding-top: 90px;
+}
+
+main img {
+    width: 800px;
+    max-width: 90%;
+} 
+
+h1 {
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: 80px;
+}
+
+p {
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+/* Signup Button */
+
+button {
+    background-color: #387ed1;
+    color: white;
+    border: none;
+    padding: 12px 35px;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 25px;
+}
