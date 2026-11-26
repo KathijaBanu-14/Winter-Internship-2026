@@ -1,0 +1,62 @@
+//array methods-------------
+
+// let num=[1,2,3,4];
+// num.pop();             //removes last element
+// console.log(num);
+// num.unshift(0);        //adds element to the start of the array
+// console.log(num);
+// num.shift();           //removes first element
+//  console.log(num);
+//  num.push(4);          //adds element to the end of the array
+//  console.log(num);
+
+//  let res=num.map((n)=>{    //map method and replace for (for loop)
+//     return n+2;
+//  })
+//  console.log(res);
+
+//  let r=num.filter((n)=>{      //filter method
+//     return n%2==0;
+//  })
+//  console.log(r);
+
+const linkedinJobs = [
+  {
+    id: 101,
+    title: "Frontend Developer",
+    company: "TechNova Solutions",
+    location: "Bengaluru, Karnataka (Hybrid)",
+    salary: 1400000
+  },
+  {
+    id: 102,
+    title: "Full Stack Engineer",
+    company: "CloudScale India",
+    location: "Remote",
+    salary: 1850000
+  },
+  {
+    id: 103,
+    title: "AI Community Intelligence Engineer",
+    company: "Kyanon Digital",
+    location: "Remote",
+    salary: 2150000
+  },
+  {
+    id: 104,
+    title: "Backend Node.js Developer",
+    company: "FinEdge Systems",
+    location: "Chennai, Tamil Nadu (On-site)",
+    salary: 1200000
+  },
+  {
+    id: 105,
+    title: "UI/UX Product Designer",
+    company: "PixelCraft Studio",
+    location: "Hyderabad, Telangana (Hybrid)",
+    salary: 1100000
+  }
+];
+let jobTitles = linkedinJobs.filter((job) => job.salary > 1500000).map((job) => job.company);
+console.log(jobTitles);
+
