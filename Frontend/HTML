@@ -1,4 +1,4 @@
-//ZERODHA 
+//Zerodha
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +12,7 @@
     <!-- Navigation Bar -->
     <header>
         <img src="https://zerodha.com/static/images/logo.svg"
-        alt="Zerodha Logo" width="140">
+             alt="Zerodha Logo" width="140">
 
         <nav>
             <a href="#">Signup</a>
@@ -28,7 +28,7 @@
     <main>
 
         <img src="https://zerodha.com/static/images/landing.png"
-        alt="Zerodha Trading Platform" width="800">
+             alt="Zerodha Trading Platform" width="800">
 
         <h1>Invest in everything</h1>
 
@@ -37,7 +37,7 @@
             derivatives, mutual funds, ETFs, bonds, and more.
         </p>
 
-        <button>Sign up for free</button>
+        <button id="signupBtn">Sign up for free</button>
 
     </main>
 
