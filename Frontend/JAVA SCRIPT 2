@@ -4,3 +4,19 @@ async function getfact(){
     document.getElementById('box').innerText = finalresponse.data[0];
     console.log(finalresponse.data[0])
 }
+
+
+
+async function getproducts(){
+   let response=await fetch("https://desistore.stackrel.com/products")
+   let finalresponse=await response.json()
+   console.log(finalresponse);
+   document.getElementById('box').innerHTML=finalresponse.map((n)=>{
+  return `<div >
+<img src=${n.image} alt="">
+<p>${n.title}</p>
+<p>${n.price}</p>
+</div>`
+   })
+}
+getproducts();
